@@ -1,0 +1,1026 @@
+[
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add data schemas",
+        "content_type": 7,
+        "codename": "add_dataschemas"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change data schemas",
+        "content_type": 7,
+        "codename": "change_dataschemas"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete data schemas",
+        "content_type": 7,
+        "codename": "delete_dataschemas"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view data schemas",
+        "content_type": 7,
+        "codename": "view_dataschemas"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add schema column",
+        "content_type": 8,
+        "codename": "add_schemacolumn"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change schema column",
+        "content_type": 8,
+        "codename": "change_schemacolumn"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete schema column",
+        "content_type": 8,
+        "codename": "delete_schemacolumn"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view schema column",
+        "content_type": 8,
+        "codename": "view_schemacolumn"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add company column",
+        "content_type": 9,
+        "codename": "add_companycolumn"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change company column",
+        "content_type": 9,
+        "codename": "change_companycolumn"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete company column",
+        "content_type": 9,
+        "codename": "delete_companycolumn"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view company column",
+        "content_type": 9,
+        "codename": "view_companycolumn"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add full name column",
+        "content_type": 10,
+        "codename": "add_fullnamecolumn"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change full name column",
+        "content_type": 10,
+        "codename": "change_fullnamecolumn"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete full name column",
+        "content_type": 10,
+        "codename": "delete_fullnamecolumn"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view full name column",
+        "content_type": 10,
+        "codename": "view_fullnamecolumn"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add integer column",
+        "content_type": 11,
+        "codename": "add_integercolumn"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change integer column",
+        "content_type": 11,
+        "codename": "change_integercolumn"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete integer column",
+        "content_type": 11,
+        "codename": "delete_integercolumn"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view integer column",
+        "content_type": 11,
+        "codename": "view_integercolumn"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add job column",
+        "content_type": 12,
+        "codename": "add_jobcolumn"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change job column",
+        "content_type": 12,
+        "codename": "change_jobcolumn"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete job column",
+        "content_type": 12,
+        "codename": "delete_jobcolumn"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view job column",
+        "content_type": 12,
+        "codename": "view_jobcolumn"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add phone column",
+        "content_type": 13,
+        "codename": "add_phonecolumn"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change phone column",
+        "content_type": 13,
+        "codename": "change_phonecolumn"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete phone column",
+        "content_type": 13,
+        "codename": "delete_phonecolumn"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view phone column",
+        "content_type": 13,
+        "codename": "view_phonecolumn"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "schemas",
+        "model": "dataschemas"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "schemas",
+        "model": "schemacolumn"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "schemas",
+        "model": "companycolumn"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "schemas",
+        "model": "fullnamecolumn"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "schemas",
+        "model": "integercolumn"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "schemas",
+        "model": "jobcolumn"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "schemas",
+        "model": "phonecolumn"
+    }
+},
+{
+    "model": "schemas.dataschemas",
+    "pk": 1,
+    "fields": {
+        "name": "Initial Schema Test 324",
+        "column_separator": ",",
+        "string_character": "\"",
+        "modif_date": "2021-04-01"
+    }
+},
+{
+    "model": "schemas.dataschemas",
+    "pk": 4,
+    "fields": {
+        "name": "April Fool m1",
+        "column_separator": ",",
+        "string_character": "\"",
+        "modif_date": "2021-04-01"
+    }
+},
+{
+    "model": "schemas.dataschemas",
+    "pk": 5,
+    "fields": {
+        "name": "New Schema Again",
+        "column_separator": ",",
+        "string_character": "'",
+        "modif_date": "2021-04-01"
+    }
+},
+{
+    "model": "schemas.schemacolumn",
+    "pk": 61,
+    "fields": {
+        "name": "int1_range_defaluts",
+        "schema": 1,
+        "order": 1
+    }
+},
+{
+    "model": "schemas.schemacolumn",
+    "pk": 62,
+    "fields": {
+        "name": "int2_range_modified",
+        "schema": 1,
+        "order": 2
+    }
+},
+{
+    "model": "schemas.schemacolumn",
+    "pk": 63,
+    "fields": {
+        "name": "int3 4",
+        "schema": 1,
+        "order": 0
+    }
+},
+{
+    "model": "schemas.schemacolumn",
+    "pk": 64,
+    "fields": {
+        "name": "fn1-2-2-7",
+        "schema": 1,
+        "order": 3
+    }
+},
+{
+    "model": "schemas.schemacolumn",
+    "pk": 66,
+    "fields": {
+        "name": "fn2",
+        "schema": 1,
+        "order": 5
+    }
+},
+{
+    "model": "schemas.schemacolumn",
+    "pk": 67,
+    "fields": {
+        "name": "co1",
+        "schema": 1,
+        "order": 6
+    }
+},
+{
+    "model": "schemas.schemacolumn",
+    "pk": 68,
+    "fields": {
+        "name": "phone1",
+        "schema": 1,
+        "order": 7
+    }
+},
+{
+    "model": "schemas.schemacolumn",
+    "pk": 69,
+    "fields": {
+        "name": "co2",
+        "schema": 1,
+        "order": 8
+    }
+},
+{
+    "model": "schemas.schemacolumn",
+    "pk": 70,
+    "fields": {
+        "name": "co3",
+        "schema": 1,
+        "order": 9
+    }
+},
+{
+    "model": "schemas.schemacolumn",
+    "pk": 71,
+    "fields": {
+        "name": "int4",
+        "schema": 1,
+        "order": 10
+    }
+},
+{
+    "model": "schemas.schemacolumn",
+    "pk": 72,
+    "fields": {
+        "name": "int5",
+        "schema": 1,
+        "order": 11
+    }
+},
+{
+    "model": "schemas.schemacolumn",
+    "pk": 73,
+    "fields": {
+        "name": "int6",
+        "schema": 1,
+        "order": 12
+    }
+},
+{
+    "model": "schemas.schemacolumn",
+    "pk": 74,
+    "fields": {
+        "name": "fn3",
+        "schema": 1,
+        "order": 13
+    }
+},
+{
+    "model": "schemas.schemacolumn",
+    "pk": 75,
+    "fields": {
+        "name": "jb2",
+        "schema": 1,
+        "order": 14
+    }
+},
+{
+    "model": "schemas.schemacolumn",
+    "pk": 76,
+    "fields": {
+        "name": "fn4",
+        "schema": 1,
+        "order": 15
+    }
+},
+{
+    "model": "schemas.schemacolumn",
+    "pk": 77,
+    "fields": {
+        "name": "co4",
+        "schema": 1,
+        "order": 16
+    }
+},
+{
+    "model": "schemas.schemacolumn",
+    "pk": 78,
+    "fields": {
+        "name": "phone2",
+        "schema": 1,
+        "order": 17
+    }
+},
+{
+    "model": "schemas.schemacolumn",
+    "pk": 79,
+    "fields": {
+        "name": "co5",
+        "schema": 1,
+        "order": 18
+    }
+},
+{
+    "model": "schemas.schemacolumn",
+    "pk": 80,
+    "fields": {
+        "name": "co6",
+        "schema": 1,
+        "order": 19
+    }
+},
+{
+    "model": "schemas.schemacolumn",
+    "pk": 81,
+    "fields": {
+        "name": "jb1-3",
+        "schema": 1,
+        "order": 4
+    }
+},
+{
+    "model": "schemas.schemacolumn",
+    "pk": 89,
+    "fields": {
+        "name": "IntColumn",
+        "schema": 4,
+        "order": 1
+    }
+},
+{
+    "model": "schemas.schemacolumn",
+    "pk": 90,
+    "fields": {
+        "name": "FN column 4-0",
+        "schema": 4,
+        "order": 4
+    }
+},
+{
+    "model": "schemas.schemacolumn",
+    "pk": 91,
+    "fields": {
+        "name": "Phone column 2-1",
+        "schema": 4,
+        "order": 2
+    }
+},
+{
+    "model": "schemas.schemacolumn",
+    "pk": 92,
+    "fields": {
+        "name": "Int First Column 5",
+        "schema": 5,
+        "order": 1
+    }
+},
+{
+    "model": "schemas.schemacolumn",
+    "pk": 93,
+    "fields": {
+        "name": "New column cmp",
+        "schema": 5,
+        "order": 2
+    }
+},
+{
+    "model": "schemas.integercolumn",
+    "pk": 61,
+    "fields": {
+        "range_low": -20,
+        "range_high": 40
+    }
+},
+{
+    "model": "schemas.integercolumn",
+    "pk": 62,
+    "fields": {
+        "range_low": -20,
+        "range_high": 40
+    }
+},
+{
+    "model": "schemas.integercolumn",
+    "pk": 63,
+    "fields": {
+        "range_low": -20,
+        "range_high": 40
+    }
+},
+{
+    "model": "schemas.integercolumn",
+    "pk": 66,
+    "fields": {
+        "range_low": -20,
+        "range_high": 40
+    }
+},
+{
+    "model": "schemas.integercolumn",
+    "pk": 67,
+    "fields": {
+        "range_low": -20,
+        "range_high": 40
+    }
+},
+{
+    "model": "schemas.integercolumn",
+    "pk": 68,
+    "fields": {
+        "range_low": -20,
+        "range_high": 40
+    }
+},
+{
+    "model": "schemas.integercolumn",
+    "pk": 69,
+    "fields": {
+        "range_low": -20,
+        "range_high": 40
+    }
+},
+{
+    "model": "schemas.integercolumn",
+    "pk": 70,
+    "fields": {
+        "range_low": -20,
+        "range_high": 40
+    }
+},
+{
+    "model": "schemas.integercolumn",
+    "pk": 71,
+    "fields": {
+        "range_low": -20,
+        "range_high": 40
+    }
+},
+{
+    "model": "schemas.integercolumn",
+    "pk": 72,
+    "fields": {
+        "range_low": -20,
+        "range_high": 40
+    }
+},
+{
+    "model": "schemas.integercolumn",
+    "pk": 73,
+    "fields": {
+        "range_low": -20,
+        "range_high": 40
+    }
+},
+{
+    "model": "schemas.integercolumn",
+    "pk": 74,
+    "fields": {
+        "range_low": -20,
+        "range_high": 40
+    }
+},
+{
+    "model": "schemas.integercolumn",
+    "pk": 75,
+    "fields": {
+        "range_low": -20,
+        "range_high": 40
+    }
+},
+{
+    "model": "schemas.integercolumn",
+    "pk": 76,
+    "fields": {
+        "range_low": -20,
+        "range_high": 40
+    }
+},
+{
+    "model": "schemas.integercolumn",
+    "pk": 77,
+    "fields": {
+        "range_low": -20,
+        "range_high": 40
+    }
+},
+{
+    "model": "schemas.integercolumn",
+    "pk": 78,
+    "fields": {
+        "range_low": -20,
+        "range_high": 40
+    }
+},
+{
+    "model": "schemas.integercolumn",
+    "pk": 79,
+    "fields": {
+        "range_low": -20,
+        "range_high": 40
+    }
+},
+{
+    "model": "schemas.integercolumn",
+    "pk": 80,
+    "fields": {
+        "range_low": -20,
+        "range_high": 40
+    }
+},
+{
+    "model": "schemas.integercolumn",
+    "pk": 89,
+    "fields": {
+        "range_low": -20,
+        "range_high": 40
+    }
+},
+{
+    "model": "schemas.integercolumn",
+    "pk": 92,
+    "fields": {
+        "range_low": -25,
+        "range_high": 55
+    }
+},
+{
+    "model": "schemas.fullnamecolumn",
+    "pk": 64,
+    "fields": {
+        "first_name": null,
+        "last_name": null
+    }
+},
+{
+    "model": "schemas.fullnamecolumn",
+    "pk": 90,
+    "fields": {
+        "first_name": null,
+        "last_name": null
+    }
+},
+{
+    "model": "schemas.jobcolumn",
+    "pk": 81,
+    "fields": {
+        "job_name": "qhrhqerh"
+    }
+},
+{
+    "model": "schemas.companycolumn",
+    "pk": 93,
+    "fields": {
+        "company_name": "hqryuryq"
+    }
+},
+{
+    "model": "schemas.phonecolumn",
+    "pk": 91,
+    "fields": {
+        "phone_number": "7357274748"
+    }
+}
+]

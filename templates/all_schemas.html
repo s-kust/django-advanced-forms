@@ -1,0 +1,23 @@
+{% extends '_base.html' %}
+
+{% block content %}
+<table class="table-bordered">
+  <tr>
+    <th>Title</th>
+    <th>Modified</th>
+	<th colspan="2"></th>
+	<!-- <th></th> -->
+  </tr>
+{% for schema in object_list %}
+<tr>
+    <td>{{ schema.name }}</td>
+	<td>{{ schema.modif_date }}</td>
+	<td><form action="{% url 'schema_create_update' schema.pk %}" method="post"><input type="submit" value="Edit" class = "btn btn-primary">{% csrf_token %}</form></td>
+	<td><form action="{% url 'delete_schema' schema.pk %}" method="post"><input type="submit" value="Delete" class = "btn btn-primary">{% csrf_token %}</form></td>
+</tr>
+{% endfor %}  
+</table>
+<form action="{% url 'schema_create_update' %}" method="post"><input type="submit" value="Create new schema" class = "btn btn-primary" style="margin: 0.5em;">{% csrf_token %}</form>
+
+{% endblock %}
+
