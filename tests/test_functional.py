@@ -33,7 +33,7 @@ class FunctionalTests(LiveServerTestCase):
     def test_all_pages_functions(self):   
         
         # start from homepage
-        
+        print('self.live_server_url -', self.live_server_url)
         self.browser.get('%s%s' % (self.live_server_url, '/'))
         delay = 10 # seconds
         try:

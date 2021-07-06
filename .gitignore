@@ -98,3 +98,4 @@ Thumbs.db #thumbnail cache on Windows
 # misc
 task/
 .env
+planeks/.env

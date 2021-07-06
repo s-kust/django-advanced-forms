@@ -1,4 +1,4 @@
 DJANGO_SETTINGS_MODULE=planeks.settings
-SECRET_KEY='l^w_#n=-dfnudil%x+pxr4xog10pyh7*p#t@ip8156!^x*9xev'
+SECRET_KEY='put_your_secret_key_here'
 DEBUG=False
 REDIS_URL=redis://
