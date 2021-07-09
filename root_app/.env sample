@@ -1,4 +1,4 @@
-DJANGO_SETTINGS_MODULE=planeks.settings
+DJANGO_SETTINGS_MODULE=root_app.settings
 SECRET_KEY='put_your_secret_key_here'
 DEBUG=False
 REDIS_URL=redis://

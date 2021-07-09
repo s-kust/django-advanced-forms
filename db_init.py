@@ -1,6 +1,6 @@
 import django
 import os
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "planeks.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "root_app.settings")
 django.setup()
 from schemas.models import *
 
